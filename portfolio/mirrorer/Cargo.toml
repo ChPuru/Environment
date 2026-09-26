@@ -1,0 +1,11 @@
+[package]
+name = "mirrorer"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "One-way directory mirror with hash-verified change detection"
+
+[dependencies]
+blake3.workspace = true
+anyhow.workspace = true
+clap.workspace = true

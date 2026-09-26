@@ -1,0 +1,10 @@
+[package]
+name = "icalx"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "iCalendar toolkit: parse, expand recurrences, write (RFC 5545 subset)"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true

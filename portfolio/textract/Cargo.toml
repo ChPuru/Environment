@@ -1,0 +1,12 @@
+[package]
+name = "textract"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Batch OCR pipeline with a pluggable engine and searchable index"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+serde.workspace = true
+serde_json.workspace = true

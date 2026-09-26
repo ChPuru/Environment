@@ -1,0 +1,13 @@
+[package]
+name = "ferry"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Resumable, integrity-verified file transfer over TCP"
+
+[dependencies]
+blake3.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+anyhow.workspace = true
+clap.workspace = true

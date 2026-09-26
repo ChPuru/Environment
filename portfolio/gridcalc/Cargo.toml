@@ -1,0 +1,11 @@
+[package]
+name = "gridcalc"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "CSV spreadsheet engine: formulas, ranges, cycle detection"
+
+[dependencies]
+csv.workspace = true
+anyhow.workspace = true
+clap.workspace = true

@@ -1,0 +1,19 @@
+[package]
+name = "warden-cli"
+description = "warden CLI - encrypted, deduplicated, verifiable snapshots"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "warden"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+warden-core = { path = "../warden-core" }
+
+[dev-dependencies]
+warden-core = { path = "../warden-core" }
+tempfile.workspace = true

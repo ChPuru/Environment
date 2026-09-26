@@ -1,0 +1,32 @@
+# Rust build output (both workspaces)
+target/
+**/target/
+# setup.sh output
+/bin/
+
+# Local env / secrets
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# AI assistant / personal notes
+.claude/
+.remember/
+CLAUDE.md
+AGENTS.md
+GEMINI.md
+.cursor*
+HANDOFF*.md
+
+# Test / bench scratch
+*.profraw
+proptest-regressions/*.tmp
